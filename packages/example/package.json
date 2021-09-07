@@ -17,10 +17,10 @@
         "access": "public"
     },
    "scripts": {
+        "clean": "shx rm -rf build/*",
         "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject"
+        "build": "craco build",
+        "test": "craco test"
     },
     "dependencies": {
         "@craco/craco": "^6.2.0",
